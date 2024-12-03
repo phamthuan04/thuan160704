@@ -1,0 +1,71 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-image: url(https://tophinhanhdep.com/wp-content/uploads/2021/10/Weapon-Wallpapers.jpg);
+  background-size: cover;
+  min-height: 100vh;
+}
+.login{
+  display: flex ;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.login-container {
+  padding: 20px;
+  width: 100%;
+  max-width: 400px;
+  background: rgb(248, 245, 245);
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  
+
+}
+.login-container h1 {
+  margin-bottom: 20px;
+  font-size: 3rem;
+  text-align: center;
+}
+.login-container form {
+  display: flex;
+  flex-direction: column;
+
+}
+.login-container label {
+  font-size: larger;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+}
+.login-container form input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.login-container form button {
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #333;
+  border: none;
+  border-radius: 6px;
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: white;
+}
+.login-container form button:hover{
+  background-color: #555;
+}
+.login-registerButton {
+  margin-top: 13px;
+  font-size: 1.3rem;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  color: #333;
+}
+.login-registerButton:hover {
+  color: violet;
+}
